@@ -1,0 +1,15 @@
+{
+	"name": "azureprocourse",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "85cefaf1-965f-4f6d-ab02-955ea960757b",
+		"tenantId": "d6e5bd62-d36d-49c5-9209-4722e95c5f8d"
+	}
+}

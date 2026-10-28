@@ -1,0 +1,21 @@
+{
+	"name": "Jsonbackdate",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_cdc",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "cdc.json",
+				"folderPath": "folder",
+				"fileSystem": "source"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
